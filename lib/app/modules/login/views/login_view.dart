@@ -10,12 +10,12 @@ class LoginView extends GetView<LoginController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('LoginView'),
+        title: const Text('Login'),
         centerTitle: true,
       ),
       body: const Center(
         child: Text(
-          'LoginView is working',
+          'Login is working',
           style: TextStyle(fontSize: 20),
         ),
       ),
